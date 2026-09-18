@@ -1,0 +1,333 @@
+/* ↓↓ Emerging Solutions ↓↓ */
+.hero-market {
+    position: relative;
+    width: 80vw;
+    height: 40vh;
+    padding-bottom: 4rem;
+    text-align: center;
+    background-image: url("../images/graphics/ribbon-background-v2-small-thin.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.market-canopy {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start
+    ;
+}
+
+.awning {
+    position: absolute;
+    transform: scaleX(1.5);
+}
+
+.hero-market h1 {
+    margin-bottom: 0.5rem;
+    margin-top: 4vh;
+    position: relative;
+}
+
+.hero-subtitle {
+    background-color: var(--cynergy-green-trans);
+    width: 50%;
+    text-align: center;
+    position: relative;
+    color: var(--bg-main);
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.market-quote-div {
+    width: 15vw;
+    font-size: 10pt;
+    float: right;
+	margin-top: 10vh;
+    border-color: var(--border-light);
+    background-color: var(--bg-main-light-trans);
+    position: absolute;
+    right: 1rem;
+    top: 2rem;
+    z-index: 10;
+}
+
+.market-quote {
+    display: flex;
+    flex-direction: row;
+}
+
+.market-speaker {
+    color: var(--flow-gold);
+    margin-bottom: 0.25rem;
+}
+
+.market-awning-div {
+    width: 80vw;
+    height: 200px;
+}
+
+.market-awning {
+    width: 85vw;
+    height: 200px;
+    margin-top: 8vh;
+    margin-left: -2vw;
+}
+
+.market-stage {
+    width: 90%;
+    height: 16px;
+    margin: 0 auto 2vh;
+    border-radius: 4px;
+    background: linear-gradient(to bottom, #a67c39, #6e4b17);
+    box-shadow: 0 4px 10px rgba(0,0,0,.5);
+}
+
+.remaining-market {
+    width: 80vw;
+    padding-top: 2vh;
+    border-top: 15px solid #6e4b17;
+    border-left: 15px solid #6e4b17;
+    border-right: 15px solid #6e4b17;
+    border-radius: 15px;
+    height: 95vh;
+    margin-bottom: 5vh;
+}
+
+.vendor-showcase {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 2vh;
+}
+
+.row-type {
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin: 0 auto 0;
+}
+
+.row-icon-div {
+    width: 40px;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1vw;
+}
+
+.row-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.row-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+    width: 10vw;
+    font-size: 10pt;
+}
+
+.row-title {
+    font-weight: bold;
+}
+
+.gold-title {
+    color: var(--flow-gold);
+}
+
+.teal-title {
+    color: var(--flow-teal);
+}
+
+.blue-title {
+    color: var(--cynergy-blue);
+}
+
+.row-text {
+    font-size: 10pt;
+}
+
+.vendor-link,
+.vendor-link:link,
+.vendor-link:visited,
+.vendor-link:active {
+    text-decoration: none;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.vendor-card:hover {
+    box-shadow: 0 0 2px 5px var(--flow-gold);
+    transform: translateY(-5px) scale(1.02);
+}
+
+.vendor-card {
+    height: 20vh;
+    border: 2px solid var(--flow-gold);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+.vendor-card-r1 {
+    width: 15vw;
+}
+
+.vendor-card-r2 {
+    width: 10vw;
+}
+
+.vendor-card-inner {
+    width: 98%;
+    height: 97%;
+    background-color: var(--text-primary);
+    border-radius: 15px;
+    padding: 0.5vw 0.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.vendor-logo {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vendor-icon-div {
+    width: 140px;
+    height: 40px;
+    display: flex;
+}
+
+.vendor-name-row {
+    text-align: center;
+    padding-top: 2px;
+}
+
+.vendor-divider {
+    width: 95%;
+    height: 1vh;
+    background-color: var(--flow-gold);
+}
+
+.vendor-text {
+    color: var(--bg-main);
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 0px 3px;
+    text-align: center;
+}
+
+.why-section {
+    width: 70vw;
+    height: 15vh;
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: var(--border-light);
+    padding: 1vh 0.5vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    align-items: center;
+}
+
+.why-heading-icon-div {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-heading-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.why-heading-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1vh;
+    width: 50%;
+}
+
+.why-title {
+    font-size: 10pt;
+    color: var(--flow-teal);
+    font-weight: bold;
+}
+
+.why-text {
+    font-size: 9pt;
+}
+
+.why-divider {
+    width: 2px;
+    height: 10vh;
+    background-color: var(--border-light);
+}
+
+.block-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+}
+
+.heading-12 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 5vw;
+}
+
+.icon-12-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-12 {
+    width: 30px;
+    height: 30px;
+}
+
+.number-12 {
+    font-size: 18pt;
+    font-weight: bold;
+    color: var(--flow-teal);
+}
+
+.text-12 {
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2vh;
+}
+/* ↑↑ Emerging Solutions ↑↑ */

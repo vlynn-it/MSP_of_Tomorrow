@@ -1,0 +1,39 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="70"
+    height="70"
+    viewBox="0 0 70 70"
+    fill="none"
+>
+    <!-- Circle Background -->
+    <circle
+        cx="35"
+        cy="35"
+        r="33"
+        fill="rgba(243,167,47,0.15)"
+        stroke="#F3A72F"
+        stroke-width="2"
+    />
+
+    <!-- Sun Icon -->
+    <g
+        stroke="#FFFFFF"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    >
+        <circle cx="35" cy="35" r="8"/>
+
+        <path d="M35 16v5"/>
+        <path d="M35 49v5"/>
+
+        <path d="M16 35h5"/>
+        <path d="M49 35h5"/>
+
+        <path d="M21.5 21.5l3.5 3.5"/>
+        <path d="M45 45l3.5 3.5"/>
+
+        <path d="M21.5 48.5l3.5-3.5"/>
+        <path d="M45 25l3.5-3.5"/>
+    </g>
+</svg>

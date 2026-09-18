@@ -1,0 +1,368 @@
+/* ↓↓ Cynergy of Tomorrow ↓↓ */
+.diagram-section {
+    margin-top: 2rem;
+}
+
+.diagram-section-heading-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    width: 80vw;
+}
+
+.diagram-section-heading-row-line-left {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, var(--flow-teal), var(--bg-card-trans), var(--bg-block-trans));
+}
+
+.diagram-section-heading-row-line-right {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to left, var(--flow-teal), var(--bg-card-trans), var(--bg-block-trans));
+}
+
+.diagram-section-heading-row-text {
+    color: var(--flow-teal);
+    font-size: 12pt;
+    font-weight: bold;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.diagram-row {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.diagram-row-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5vw;
+    max-width: 15vw;
+    min-height: 250px;
+    padding: 0.5vw;
+}
+
+.diagram-row-block:hover .diagram-block-icon {
+    transform: scale(1.15) rotate(5deg);
+}
+
+.diagram-row-block:hover {
+    background-color: color-mix(in srgb, var(--bg-card-trans) 90%, var(--flow-teal-trans) 10%);
+}
+
+.diagram-block-green {
+    background: linear-gradient(to bottom, var(--cynergy-green-trans), var(--bg-main));
+    color: var(--cynergy-green-light);
+    border-color: var(--cynergy-green);
+}
+
+.diagram-block-gold {
+    background: linear-gradient(to bottom, var(--flow-gold-trans), var(--bg-main));
+    color: var(--flow-gold-light);
+    border-color: var(--flow-gold);
+}
+
+.diagram-block-icon-div {
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diagram-block-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform .25s ease;
+}
+
+.diagram-block-icon-blue {
+    background: linear-gradient(to bottom, var(--cynergy-blue-light), var(--cynergy-blue-trans), var(--bg-block-trans));
+    border-color: linear-gradient(to top, var(--cynergy-blue), var(--cynergy-blue-light));
+}
+
+.diagram-block-icon-green {
+    background: linear-gradient(to bottom, var(--cynergy-green-light), var(--cynergy-green-trans), var(--bg-block-trans));
+    border-color: linear-gradient(to top, var(--cynergy-green), var(--cynergy-green-light));
+}
+
+.diagram-block-icon-teal {
+    background: linear-gradient(to bottom, var(--flow-teal-light), var(--flow-teal-trans), var(--bg-block-trans));
+    border-color: linear-gradient(to top, var(--flow-teal), var(--flow-teal-light));
+}
+
+.diagram-block-icon-gold {
+    background: linear-gradient(to bottom, var(--flow-gold-light), var(--flow-gold-trans), var(--bg-block-trans));
+    border-color: linear-gradient(to top, var(--flow-gold), var(--flow-gold-light));
+}
+
+.diagram-block-heading {
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.diagram-block-text {
+    text-align: center;
+    color: var(--text-primary);
+    font-size: 10pt;
+    font-weight: bold;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    flex-grow: 1;
+}
+
+.future-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.venn-circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    color: var(--text-primary);
+    font-weight: 600;
+    border: 2px solid;
+    backdrop-filter: blur(2px);
+    font-size: 12pt;
+}
+
+.venn-circle:hover .venn-icon {
+    transform: scale(1.5);
+}
+
+.venn-icon {
+    transition: transfrom .25s ease;
+}
+
+.venn-link {
+    text-decoration: none;
+    flex: 1;
+}
+
+.venn-tech {
+    border-color: var(--cynergy-blue);
+    background-color: var(--cynergy-blue-trans);
+    margin-bottom: -3rem;
+}
+
+.venn-tech:hover {
+    box-shadow: 0 0 30px var(--cynergy-blue-light);
+}
+
+.future-graphic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.venn-services {
+    border-color: var(--cynergy-green);
+    background-color: var(--cynergy-green-trans);
+    margin-right: -3.6rem;
+}
+
+.venn-services:hover {
+    box-shadow: 0 0 30px var(--cynergy-green-light);
+}
+
+.venn-intelligence {
+    border-color: var(--flow-teal);
+    background-color: var(--flow-teal-trans);
+    margin-left: -3.6rem;
+}
+
+.venn-intelligence:hover {
+    box-shadow: 0 0 30px var(--flow-teal-light);
+}
+
+.venn-center {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    box-shadow: 0 0 40px var(--flow-gold);
+    margin-bottom: -10rem;
+}
+
+.venn-logo {
+    width: 100px;
+    height: 100px;
+    transition: transform .25s ease;
+}
+
+.venn-logo:hover {
+    transform: scale(1.2);
+}
+
+.venn-heading {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.venn-list-div  {
+    flex-grow: 0;
+}
+
+.venn-list {
+    text-align: left;
+    font-size: 10pt;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.venn-content-services {
+    margin-left: -7rem; 
+    margin-top: 3rem;
+}
+
+.venn-content-intelligence {
+    margin-right: -6rem; 
+    margin-top: 3rem;
+}
+
+.meaning-section {
+    width: 80vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    border-color: var(--flow-teal);
+}
+
+.meaning-block {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--flow-teal-light)
+}
+
+.meaning-block-heading {
+    font-size: 12pt;
+    font-weight: bold;
+    margin-top: 2vh;
+}
+
+.meaning-block-row {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.meaning-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+    align-items: center;
+    justify-content: space-between;
+    width: 13vw;
+}
+
+.meaning-icon-div {
+    margin-top: 1vh;
+}
+
+.meaning-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.meaning-heading {
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.meaning-text {
+    color: var(--text-primary);
+    font-size: 10pt;
+    text-align: center;
+}
+
+.meaning-divider {
+    width: 2px;
+    background-color: var(--flow-teal);
+    margin: 0.5vw 1vw;
+    height: 5vw;
+}
+
+.finale-section {
+    margin-bottom: 2vh;
+}
+
+.finale {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    align-items: center;
+    justify-content: space-evenly;
+    border-color: var(--flow-gold);
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.finale-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.finale-content {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+}
+
+.finale-heading {
+    color: var(--flow-gold);
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.finale-text {
+    color: var(--text-primary);
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+/* ↑↑ Cynergy of Tomorrow ↑↑ */

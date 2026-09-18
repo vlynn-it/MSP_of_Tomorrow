@@ -1,0 +1,32 @@
+/* ↓↓ Footer ↓↓ */
+.page-footer {
+    border-top: 1px solid var(--border-light);
+    font-size: clamp(0.5rem, 1.25vw, 1rem);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--text-secondary);
+    padding-top: 0.1rem;
+}
+
+.presented-by {
+    margin-left: 1rem;
+}
+
+.author {
+    color: var(--flow-gold);
+}
+
+.footer-logo {
+    width: 7vw;
+    margin-right: 1rem;
+}
+
+.footer-link,
+.footer-link:link,
+.footer-link:visited,
+.footer-link:active {
+    color: var(--text-primary);
+    text-decoration: none;
+}
+/* ↑↑ Footer ↑↑ */

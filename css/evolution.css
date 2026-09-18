@@ -1,0 +1,244 @@
+/* ↓↓ Cynergy Evolution ↓↓ */
+.timeline {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2vw;
+    max-width: 80vw;
+}
+
+.timeline-line {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(to right, var(--cynergy-blue), var(--cynergy-green), var(--cynergy-green), var(--cynergy-blue), var(--flow-gold));
+    z-index: 1;
+    height: 2px;
+    width: 100%;
+}
+
+.timeline-blue {
+    color: var(--cynergy-blue);
+    background-color: var(--cynergy-blue);
+    border-color: var(--cynergy-blue);
+}
+
+.timeline-green {
+    color: var(--cynergy-green);
+    background-color: var(--cynergy-green);
+    border-color: var(--cynergy-green);
+}
+
+.timeline-teal {
+    color: var(--flow-teal);
+    background-color: var(--flow-teal);
+    border-color: var(--flow-teal);
+}
+
+.timeline-gold {
+    color: var(--flow-gold);
+    background-color: var(--flow-gold);
+    border-color: var(--flow-gold);
+}
+
+.timeline-entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 14vw;
+}
+
+.timeline-entry:hover {
+    transform: translateY(-6px);
+}
+
+.timeline-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    position: relative;
+    z-index: 2;
+}
+
+.timeline-icon-blue {
+    border-color:  var(--cynergy-blue-light);
+    background-color: var(--cynergy-blue);
+}
+
+.timeline-icon-green {
+    border-color:  var(--cynergy-green-light);
+    background-color: var(--cynergy-green);
+}
+
+.timeline-icon-teal {
+    border-color:  var(--flow-teal-light);
+    background-color: var(--flow-teal);
+}
+
+.timeline-icon-gold {
+    border-color:  var(--flow-gold-light);
+    background-color: var(--flow-gold);
+}
+
+.timeline-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.timeline-arrow {
+    color: var(--flow-teal);
+    font-size: 2rem;
+}
+
+.timeline-event {
+    padding: 0.25rem;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-block-trans);
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-event:hover {
+    box-shadow: 0 0 25px var(--flow-teal-light);
+}
+
+.timeline-label {
+    margin-top: 8px;
+    padding: 0.25rem 1rem;
+    border-radius: 8px;
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: inherit;
+}
+
+.timeline-label-blue {
+    background-color: var(--cynergy-blue);
+}
+
+.timeline-label-green {
+    background-color: var(--cynergy-green);
+}
+
+.timeline-label-teal {
+    background-color: var(--flow-teal);
+}
+
+.timeline-label-gold {
+    background-color: var(--flow-gold);
+}
+
+.timeline-title {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.timeline-list {
+    color: var(--text-primary);
+    font-size: 10pt;
+    flex-grow: 1;
+}
+
+.timeline-cornerstone {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    width: 90%;
+    height: clamp(15vh, 20vh, 20vh);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.timeline-event:hover .timeline-cornerstone {
+    border-color: var(--flow-gold);
+    background: var(--flow-gold-trans);
+}
+
+.timeline-cornerstone-icon {
+    padding: 0.5rem;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.timeline-cornerstone-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.timeline-cornerstone-title {
+    font-size: 10pt;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.timeline-cornerstone-text {
+    font-size: 10pt;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.slide-summary {
+    margin-top: 5px;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slide-summary-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    font-size: 14pt;
+}
+
+.summary-arrow-green {
+    color: var(--flow-teal);
+    font-size: 2vw;
+}
+
+.slide-summary-line {
+    height: 2px;
+    width: 10vw;
+    background: linear-gradient(to right, var(--flow-teal), var(--cynergy-blue), var(--cynergy-green));
+}
+
+.summary-line-start {
+    margin-left: -1px;
+    padding-right: 2px;
+}
+
+.summary-line-end {
+    margin-right: -1px;
+    padding-left: 2px;
+}
+
+.slide-summary-text {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: var(--text-primary);
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.summary-text-teal {
+    color: var(--flow-teal);
+}
+/* ↑↑ Cynergy Evolution ↑↑ */

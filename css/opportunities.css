@@ -1,0 +1,247 @@
+/* ↓↓ Automtion Opportunities ↓↓ */
+.opportunities-section {
+    margin-top: 2vh;
+}
+
+.opportunities-row {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.opportunities-card-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  --s: 300px; /* adjust to control the size */
+
+  width: var(--s); 
+  aspect-ratio: 1;
+  --g:/calc(var(--s)*0.159) calc(var(--s)*0.159) radial-gradient(50% 50%,#000 99%,#0000 101%) no-repeat;
+  mask: calc(50% + var(--s)*0.4) calc(50% + var(--s)*0) var(--g),calc(50% + var(--s)*0.306) calc(50% + var(--s)*0.257) var(--g),calc(50% + var(--s)*0.069) calc(50% + var(--s)*0.394) var(--g),calc(50% + var(--s)*-0.2) calc(50% + var(--s)*0.346) var(--g),calc(50% + var(--s)*-0.376) calc(50% + var(--s)*0.137) var(--g),calc(50% + var(--s)*-0.376) calc(50% + var(--s)*-0.137) var(--g),calc(50% + var(--s)*-0.2) calc(50% + var(--s)*-0.346) var(--g),calc(50% + var(--s)*0.069) calc(50% + var(--s)*-0.394) var(--g),calc(50% + var(--s)*0.306) calc(50% + var(--s)*-0.257) var(--g),radial-gradient(calc(var(--s)*0.421),#000 99%,#0000 101%) subtract,calc(50% + var(--s)*0.429) calc(50% + var(--s)*0.156) var(--g),calc(50% + var(--s)*0.228) calc(50% + var(--s)*0.395) var(--g),calc(50% + var(--s)*-0.079) calc(50% + var(--s)*0.449) var(--g),calc(50% + var(--s)*-0.349) calc(50% + var(--s)*0.293) var(--g),calc(50% + var(--s)*-0.456) calc(50% + var(--s)*0) var(--g),calc(50% + var(--s)*-0.349) calc(50% + var(--s)*-0.293) var(--g),calc(50% + var(--s)*-0.079) calc(50% + var(--s)*-0.449) var(--g),calc(50% + var(--s)*0.228) calc(50% + var(--s)*-0.395) var(--g),calc(50% + var(--s)*0.429) calc(50% + var(--s)*-0.156) var(--g);
+
+  background: var(--border-light);
+  transition: transform 0.4s ease;
+}
+
+.opportunities-card {
+  --s: 295px; /* adjust to control the size */
+
+  width: var(--s); 
+  aspect-ratio: 1;
+  --g:/calc(var(--s)*0.159) calc(var(--s)*0.159) radial-gradient(50% 50%,#000 99%,#0000 101%) no-repeat;
+  mask: calc(50% + var(--s)*0.4) calc(50% + var(--s)*0) var(--g),calc(50% + var(--s)*0.306) calc(50% + var(--s)*0.257) var(--g),calc(50% + var(--s)*0.069) calc(50% + var(--s)*0.394) var(--g),calc(50% + var(--s)*-0.2) calc(50% + var(--s)*0.346) var(--g),calc(50% + var(--s)*-0.376) calc(50% + var(--s)*0.137) var(--g),calc(50% + var(--s)*-0.376) calc(50% + var(--s)*-0.137) var(--g),calc(50% + var(--s)*-0.2) calc(50% + var(--s)*-0.346) var(--g),calc(50% + var(--s)*0.069) calc(50% + var(--s)*-0.394) var(--g),calc(50% + var(--s)*0.306) calc(50% + var(--s)*-0.257) var(--g),radial-gradient(calc(var(--s)*0.421),#000 99%,#0000 101%) subtract,calc(50% + var(--s)*0.429) calc(50% + var(--s)*0.156) var(--g),calc(50% + var(--s)*0.228) calc(50% + var(--s)*0.395) var(--g),calc(50% + var(--s)*-0.079) calc(50% + var(--s)*0.449) var(--g),calc(50% + var(--s)*-0.349) calc(50% + var(--s)*0.293) var(--g),calc(50% + var(--s)*-0.456) calc(50% + var(--s)*0) var(--g),calc(50% + var(--s)*-0.349) calc(50% + var(--s)*-0.293) var(--g),calc(50% + var(--s)*-0.079) calc(50% + var(--s)*-0.449) var(--g),calc(50% + var(--s)*0.228) calc(50% + var(--s)*-0.395) var(--g),calc(50% + var(--s)*0.429) calc(50% + var(--s)*-0.156) var(--g);
+
+  background: linear-gradient(to top right, var(--bg-card-trans), var(--bg-main-light));
+
+  position: absolute;
+  
+  transition: transform 0.4s ease;
+}
+
+.opportunities-card:hover {
+    cursor: pointer;
+}
+
+.opportunities-card.flipped .card-inner {
+    transform: rotateY(180deg) rotate(15deg);
+}
+
+.opportunities-card-border.flipped {
+    transform: rotate(15deg);
+}
+
+.card-inner {
+    position: relative;
+    top: 18%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card-front, .card-back {
+    text-align: center;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-front:hover .front-text,
+.card-front:hover .front-heading {
+    text-shadow: 0 0 2px var(--flow-gold);
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    font-size: 10pt;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    background: color-mix(in srgb, var(--cynergy-blue) 40%, black 60%);
+	height: 30vh
+}
+
+.front-heading {
+    color: var(--flow-gold);
+    font-size: 10pt;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.front-text {
+    text-align: center;
+    font-size: 10pt;
+}
+
+.card-horizontal {
+    width: 80%;
+    height: 2px;
+    background-color: var(--flow-gold);
+    flex-shrink: 0;
+}
+
+.back-current {
+    font-size: 10pt;
+}
+
+.questions-section {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    min-height: 40vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: var(--flow-gold-light);
+    padding: 2vw;
+}
+
+.questions-section-heading-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.questions-section-heading-row-line-left {
+    width: 10vw;
+    height: 2px;
+    background: linear-gradient(to right, var(--flow-teal), var(--bg-card-trans), var(--bg-block-trans));
+}
+
+.questions-section-heading-row-line-right {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to left, var(--flow-teal), var(--bg-card-trans), var(--bg-block-trans));
+}
+
+.questions-section-heading-row-text {
+    color: var(--flow-teal);
+    font-size: 12pt;
+    font-weight: bold;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.questions {
+    margin-top: 2.5rem;
+    position: absolute;
+}
+
+.questions-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.question {
+    width: fit-content;
+    height: 3rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid var(--flow-teal);
+    transition: transform 0.4s ease;
+}
+
+.question:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 2px 5px var(--bg-block-trans);
+    text-shadow: 0 0 15px var(--flow-gold);
+}
+
+.question1 {
+    position: relative;
+    transform: rotate(-15deg);
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.question2 {
+    margin-right: 2rem;
+}
+
+.question3 {
+    transform: rotate(15deg);
+    margin-top: 2rem;
+}
+
+.question4 {
+    transform: rotate(10deg);
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+    margin-left: 3vw;
+}
+
+.question5 {
+    transform: rotate(-20deg);
+    margin-top: 6vh;
+    margin-left: -2vw;
+}
+
+.answer-border {
+    text-align: center;
+    margin-top: -4vh;
+    margin-left: -4vw;
+    background: radial-gradient(var(--bg-block-trans), var(--bg-card-trans), var(--bg-main-light));
+    border: 1px solid var(--border-light);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+}
+
+.answer {
+    padding: 1vw;
+    text-align: center;
+}
+
+.answer-border:hover .answer {
+    text-shadow: 0 0 5px var(--flow-gold);
+}
+/* ↑↑ Automation Opportunities ↑↑ */

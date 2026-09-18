@@ -1,0 +1,214 @@
+:root {
+    --bg-main: #010614;
+    --bg-main-light: #041649;
+    --bg-main-light-trans: #041649DD;
+    --bg-card: #0F3E4A;
+    --bg-card-trans: #0F3E4ADD;
+    --bg-block-trans: #f8ea7c18;
+
+    --cynergy-blue: #0076E6;
+    --cynergy-blue-light: #57aeff;
+    --cynergy-blue-trans: #0076E622;
+    --cynergy-green: #00C97D;
+    --cynergy-green-light: #2ff0a6;
+    --cynergy-green-trans: #00C97D22;
+
+    --flow-teal: #3BC6BE;
+    --flow-teal-light: #77f4ed;
+    --flow-teal-trans: #3BC6BE22;
+    --flow-gold: #F3A72F;
+    --flow-gold-light: #f7ca83;
+    --flow-gold-trans: #F3A72F22;
+
+    --text-primary: #FFFFFF;
+    --text-secondary: #C2D3D9;
+
+    --border-light: #99cdca;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", "Arial", sans-serif;
+    background: var(--bg-main);
+    color: var(--text-primary);
+    max-width: 100vw;
+}
+
+.block-background {
+    background: linear-gradient(to right, var(--bg-main), var(--bg-card));
+}
+
+.box-border {
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.divider-horizontal {
+    height: 1px;
+    background-color: var(--border-light);
+    margin: 0.5rem 1.5rem
+}
+
+.divider-vertical {
+    width: 1px;
+    background-color: var(--border-light);
+    margin: 1.5rem 1.5rem
+}
+
+.teal-text {
+    color: var(--flow-teal);
+}
+
+.site-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    padding-left: 2rem;
+}
+
+/* ↓↓ Hero banner ↓↓ */
+.hero {
+    background-image: url("../images/graphics/ribbon-background-v2-small-thin.png");
+    background-size: cover;
+    min-height: 250px;
+    padding: 0rem 0;
+}
+
+.hero h1 {
+    font-family: "Inter", "Arial", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-fancy-heading {
+    background: linear-gradient(to right, var(--flow-teal), var(--cynergy-blue),var(--cynergy-green));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    display: inline-block;
+    font-size: 3rem;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    background: linear-gradient();
+}
+
+.hero h3 {
+    font-size: 1.5rem;
+    color: var(--flow-teal);
+}
+
+.hero p {
+    color: var(--text-secondary);
+    width: 100%;
+}
+
+.presenter-row {
+    width: 80vw;
+    display: flex; 
+    align-items: center; 
+    gap: 1rem; 
+    flex-direction: row;
+    margin-top: -1rem;
+}
+
+.page-title {
+    display: flex; 
+    flex-direction: column;
+    width: 35vw;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.presenter-name {
+    color: var(--flow-teal); 
+    font-weight: bold;
+}
+
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    border-color: var(--border-light);
+    padding: 0.5rem;
+    background-color: var(--bg-card-trans);
+    max-width: 30vw;
+    margin-left: auto;
+    margin-right: 1rem;
+    margin-bottom: -2rem;
+}
+
+.quote-block-large {
+    display: flex;
+    flex-direction: column;
+    border-color: var(--border-light);
+    min-width: 30vw;
+}
+
+.the-quote {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.large-quote {
+    font-family: Georgia, Serif; 
+    font-size: 3rem;
+    font-weight: bold;
+    flex-shrink: 0;
+    color: var(--flow-teal);
+    line-height: 1;
+}
+
+.quote {
+    flex: 1;
+    font-size: clamp(0.75rem, 1.5vw, 2rem);
+    font-style: italic;
+    text-align: left;
+    align-self: center;
+}
+
+.the-speaker {
+    color: var(--flow-gold);
+    font-size: clamp(1rem, 1.3vw, 1.2rem);
+    margin-bottom: 0.25rem;
+}
+
+.the-speaker-large {
+    color: var(--flow-gold);
+    font-size: clamp(12pt, 1.3rem, 16pt);
+    margin-bottom: 0.25rem;
+    text-align: center;
+}
+
+.speaker-title {
+    font-size: clamp(0.75rem, 1.2vw, 1.1rem);
+}
+
+.hero-buttons {
+    display: flex;
+    width: 45vw;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.linked-link,
+.linked-link:link,
+.linked-link:visited,
+.linked-link:active {
+    color: var(--flow-gold);
+    text-decoration: none;
+}
+/* ↑↑ Hero Banner ↑↑ */

@@ -1,0 +1,355 @@
+/* ↓↓ Industry Highlights ↓↓ */
+.why-matters {
+    margin-top: 0.25rem;
+    max-width: 80vw;
+}
+
+.why-matters-title {
+    color: var(--text-primary);
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+    line-height: 1;
+}
+
+.why-matters-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 0;
+    justify-content: space-between;
+}
+
+.why-matters-card {
+    padding: 0.5rem 1rem;
+    max-width: 50%;
+}
+
+.why-matters-us-card {
+    padding: 0rem 0.5rem;
+    width: 50%;
+}
+
+.why-matters-card-title {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding-bottom: 7px;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.why-matters-card-title-icon {
+    width: 60px;
+    height: 60px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+.why-matters-card-title-heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.why-matters-card-title-heading h2 {
+    margin: 0;
+    margin-bottom: 2px;
+    color: var(--flow-teal);
+}
+
+.why-matters-card-title-heading h3 {
+    margin: 0;
+}
+
+.why-matters-card-title-description {
+    margin: 0;
+    color: var(--text-primary);
+}
+
+.opportunities-card {
+    border-color: var(--cynergy-green);
+    color: var(--cynergy-green);
+}
+
+.opportunities-card-icon {
+    border-color: var(--cynergy-green);
+    background: linear-gradient(to top right, var(--bg-main), var(--cynergy-green));
+}
+
+.risks-card {
+    border-color: var(--flow-gold);
+    color: var(--flow-gold);
+}
+
+.risks-card-icon {
+    border-color: var(--flow-gold);
+    background: linear-gradient(to top right, var(--bg-main), var(--flow-gold));
+}
+
+.why-matters-reasons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-size: 0.75rem;
+}
+
+.why-matters-reason {
+    display: flex;
+    flex-direction: column;
+}
+
+.why-matters-reason-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.why-matters-reason h4 {
+    margin: 1px;
+}
+
+.why-matters-reason-text {
+    color: var(--text-primary);
+    margin: 1px;
+}
+
+.why-matters-us-card-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.why-matters-us-card-reason {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    font-size: 12pt;
+}
+
+.why-matters-us-card-reason p {
+    margin: 0;
+}
+
+.highlights-block {
+    margin-top: 0.25rem;
+    padding: 0.75rem 1vw;
+    max-width: 80vw;
+    border-color: var(--border-light);
+}
+
+.highlights-block h4 {
+    margin: 0;
+    color: var(--flow-teal);
+    font-size: 14pt;
+}
+
+.highlights-block p {
+    margin: 0;
+    font-size: 10pt;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.highlights-block-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.5rem;
+    height: 13pt;
+    margin-bottom: 3pt;
+}
+
+.highlights-block-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.momentum-card {
+    width: 15vw;
+    padding: 0.25rem;
+    color: var(--text-primary)
+}
+
+.momentum-card:hover {
+    box-shadow: 0 0 5px 2px var(--flow-gold);
+}
+
+.highlights-card-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.momentum-card-icon {
+    border-radius: 50%;
+    border: 3px solid;
+    display: flex;
+    justify-content: center;
+    padding: 0.25rem;
+    width: 35px;
+    height: 35px;
+}
+
+.highlights-card-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+}
+
+.highlights-card-heading h5 {
+    margin-bottom: 0;
+    margin-top: 3pt;
+    font-size: 12pt;
+    line-height: 1;
+}
+
+.highlights-card-heading h6 {
+    margin: 0;
+    font-size: 10pt;
+    line-height: 1;
+}
+
+.highlights-card-heading p {
+    font-size: 12pt;
+}
+
+.momentum-card-source p {
+    font-size: 6pt;
+    margin-top: 3pt;
+}
+
+.momentum-card-source-link,
+.momentum-card-source-link:link,
+.momentum-card-source-link:visited,
+.momentum-card-source-link:active {
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.highlights-card-green {
+    border-color: var(--cynergy-green);
+}
+
+.momentum-card-icon-green {
+    border-color: var(--cynergy-green);
+    background: linear-gradient(to top, var(--cynergy-green-trans), var(--cynergy-green));
+}
+
+.highlights-card-heading-green {
+    color: var(--cynergy-green);
+}
+
+.highlights-card-teal {
+    border-color: var(--flow-teal);
+}
+
+.momentum-card-icon-teal {
+    border-color: var(--flow-teal);
+    background: linear-gradient(to top, var(--flow-teal-trans), var(--flow-teal));
+}
+
+.highlights-card-heading-teal {
+    color: var(--flow-teal);
+}
+
+.highlights-card-blue {
+    border-color: var(--cynergy-blue);
+}
+
+.momentum-card-icon-blue {
+    border-color: var(--cynergy-blue);
+    background: linear-gradient(to top, var(--cynergy-blue-trans), var(--cynergy-blue));
+}
+
+.highlights-card-heading-blue {
+    color: var(--cynergy-blue-light);
+}
+
+.highlights-card-gold {
+    border-color: var(--flow-gold);
+}
+
+.highlights-card-heading-gold {
+    color: var(--flow-gold);
+}
+
+.term-card {
+    width: 12vw;
+    padding: 0.25rem;
+    color: var(--text-primary);
+    position: relative;
+    perspective: 1000px;
+    cursor: pointer;
+    min-height: clamp(5rem, 25vh, 15rem);
+}
+
+.term-card-icon {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 0.25rem;
+    width: 35px;
+    height: 35px;
+}
+
+.term-card-icon-teal {
+    background-color: var(--flow-teal-trans);
+}
+
+.term-card-icon-gold {
+    background-color: var(--flow-gold-trans);
+}
+
+.term-card-icon-blue {
+    background-color: var(--cynergy-blue-trans);
+}
+
+.term-card-icon-green {
+    background-color: var(--cynergy-green-trans);
+}
+
+.term-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d;
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+    font-size: 12pt;
+    padding-left: 0.5vw;
+    display: flex;
+    align-items: center;
+    background: var(--cynergy-green-trans);
+}
+
+.flip-card-back p {
+    margin: 0;
+    height: auto;
+    display: block;
+	font-size: 12pt;
+}
+/* ↑↑ Industry Highlights ↑↑ */

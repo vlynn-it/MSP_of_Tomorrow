@@ -1,0 +1,41 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="70"
+    height="70"
+    viewBox="0 0 70 70"
+    fill="none"
+>
+    <!-- Background -->
+    <circle
+        cx="35"
+        cy="35"
+        r="33"
+        fill="#F3A72F"
+    />
+
+    <!-- Larger Sun -->
+    <g
+        stroke="#FFFFFF"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    >
+        <!-- Center -->
+        <circle cx="35" cy="35" r="11"/>
+
+        <!-- Vertical Rays -->
+        <path d="M35 12v8"/>
+        <path d="M35 50v8"/>
+
+        <!-- Horizontal Rays -->
+        <path d="M12 35h8"/>
+        <path d="M50 35h8"/>
+
+        <!-- Diagonal Rays -->
+        <path d="M18.5 18.5l5.5 5.5"/>
+        <path d="M46 46l5.5 5.5"/>
+
+        <path d="M18.5 51.5l5.5-5.5"/>
+        <path d="M46 24l5.5-5.5"/>
+    </g>
+</svg>

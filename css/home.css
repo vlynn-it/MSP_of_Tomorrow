@@ -1,0 +1,523 @@
+.start-exploring {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--flow-teal);
+    border-radius: 15px;
+    width: 45%;
+    height: 10vh;
+    padding: 1rem;
+    line-height: 1;
+}
+
+.start-exploring:hover {
+    box-shadow: 0 0 15px 4px #2ff7ed;
+}
+
+.start-exploring-link,
+.start-exploring-link:link,
+.start-exploring-link:visited,
+.start-exploring-link:active {
+    color: var(--bg-main);
+    text-decoration: none;
+    width: 100%
+}
+
+.start-exploring-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/*.start-exploring-button:hover {
+    transform: translateY(-4px);
+}*/
+
+.start-exploring-text {
+    font-size: clamp(12pt, 1.25vw, 16pt);
+    font-weight: bold;
+}
+
+.start-exploring-arrow {
+    margin-left: auto;
+    height: 100%;
+}
+
+.download-all {
+    width: 50%;
+    height: 10vh;
+    border-radius: 15px;
+    border: 2px solid var(--flow-teal);
+    margin-left: auto;
+    padding: 1rem;
+    background-color: var(--bg-card-trans);
+}
+
+.download-all:hover {
+    box-shadow: 0 0 15px 4px #2ff7ed;
+}
+
+.download-all-link,
+.download-all-link:link,
+.download-all-link:visited,
+.download-all-link:active {
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+
+.download-all-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+    padding: 2px;
+    height: 100%;
+}
+
+.download-all-button:hover {
+    transform: translateY(-4px);
+}
+
+.download-all-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.download-all-title {
+    font-size: clamp(12pt, 1.25vw, 16pt);
+}
+
+.download-all-description {
+    font-size: clamp(8pt, 0.75vw, 10pt);
+}
+
+/* ↓↓ FLOW Overview ↓↓ */
+.flow-overview {
+    margin-top: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-color: var(--border-light);
+    width: 80vw;
+    box-shadow: 0 0 3rem var(--cynergy-green-trans);
+}
+
+.overview-title {
+    margin: 0 0 0.5rem -0.5rem;
+    color: var(--flow-teal);
+    font-size: 1rem;
+}
+
+.overview-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.stat-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.stat-card p {
+    margin-left: 1rem;
+}
+
+.stat-num {
+    font-size: 1.5rem;
+}
+
+.topics-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 70vw
+}
+
+.topics-label {
+    color: var(--flow-teal);
+    font-size: 1rem;
+    margin-left: -0.5rem;
+}
+
+.topic-chip {
+    padding: 0 1rem;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.topic-chip:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px var(--flow-teal);
+}
+
+.topic-chip-blue {
+    background-color: var(--cynergy-blue-trans);
+    border: 1px solid var(--cynergy-blue);
+    color: var(--cynergy-blue);
+}
+
+.topic-chip-teal {
+    background-color: var(--flow-teal-trans);
+    border: 1px solid var(--flow-teal);
+    color: var(--flow-teal);
+}
+
+.topic-chip-green {
+    background-color: var(--cynergy-green-trans);
+    border: 1px solid var(--cynergy-green);
+    color: var(--cynergy-green);
+}
+
+.topic-chip-gold {
+    background-color: var(--flow-gold-trans);
+    border: 1px solid var(--flow-gold);
+    color: var(--flow-gold);
+}
+/* ↑↑ FLOW Overview ↑↑ */
+
+/* ↓↓ Navigation Cards ↓↓ */
+.nav-cards {
+    display: flex;
+    gap: 1.5rem;
+    width: 80vw;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.card-link {
+    text-decoration: none;
+    flex: 1;
+}
+
+.card-link-gold,
+.card-link-gold:link,
+.card-link-gold:visited,
+.card-link-gold:active {
+    color: var(--flow-gold);
+}
+
+.card-link-green,
+.card-link-green:link,
+.card-link-green:visited,
+.card-link-green:active {
+    color: var(--cynergy-green);
+}
+
+.card-link-teal,
+.card-link-teal:link,
+.card-link-teal:visited,
+.card-link-teal:active {
+    color: var(--flow-teal);
+}
+
+.card-link-blue,
+.card-link-blue:link,
+.card-link-blue:visited,
+.card-link-blue:active {
+    color: var(--cynergy-blue);
+}
+
+.nav-card {
+    max-width: 17.5vw;
+    height: 100%;
+    padding: 0.75rem;
+    border-radius: 15px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    transition: all .25s ease;
+}
+
+.nav-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 20px var(--flow-gold-trans);
+}
+
+.nav-card-gold {
+    border-color: var(--flow-gold);
+}
+
+.nav-card-green {
+    border-color: var(--cynergy-green);
+}
+
+.nav-card-teal {
+    border-color: var(--flow-teal);
+}
+
+.nav-card-blue {
+    border-color: var(--cynergy-blue);
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.card-header img {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.card-header h3 {
+    margin: 0;
+    width: 10vw;
+    font-size: clamp(0.5rem, 1.75vw, 1.75rem);
+    color: white;
+}
+
+.card-subtitle {
+    margin-top: .75rem;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.card-subtitle-gold {
+        color: var(--flow-gold);
+}
+
+.card-subtitle-green {
+        color: var(--cynergy-green);
+}
+
+.card-subtitle-teal {
+        color: var(--flow-teal);
+}
+
+.card-subtitle-blue {
+        color: var(--cynergy-blue);
+}
+
+.card-description {
+    color: var(--text-secondary);
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.card-link-explore {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    align-self: flex-end;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.card-link-explore:hover {
+
+    color: white;
+}
+/* ↑↑ Navigation Cards ↑↑ */
+
+.bottom-sections {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.bottom-sections-section {
+    margin-top: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    overflow: hidden;
+    width: 38vw;
+}
+
+.bottom-sections h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.bottom-sections-description {
+    color: var(--text-secondary);
+    margin-top: 0;
+    font-size: 0.75rem;
+}
+
+/* ↓↓ Opportunities Preview ↓↓ */
+.opportunities-preview {
+    border-color: var(--cynergy-green);
+    box-shadow: 0 0 3rem var(--cynergy-green-trans);
+}
+
+.opportunities-preview h2 {
+    color: var(--cynergy-green);
+}
+
+.sticky-notes {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+    margin-bottom: 1vh;
+}
+
+.sticky-note {
+    width: 20%;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Bradley Hand", "Comic Sans MS", Cursive;
+    font-size: clamp(0.25rem, 1vw, 1rem);
+    font-weight: 600;
+    color: #222;
+    position: relative;
+    box-shadow: 3px 8px 15px rgba(0,0,0,.25);
+}
+
+.sticky-note::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background: rgba(0,0,0,.12);
+    pointer-events: none;
+}
+
+.sticky-note:hover {
+    transform: translateY(-5px) scale(1.03);
+    transition: all .2s ease;
+}
+
+.note-yellow {
+    background: linear-gradient( to bottom, #f9e36a, #f5d850);
+}
+
+.note-blue {
+    background: linear-gradient( to bottom, #4de2ff, #23ccea);
+}
+
+.note-pink {
+    background: linear-gradient( to bottom, #ff91bc, #ff72ac);
+}
+
+.note-teal {
+    background: linear-gradient( to bottom, #56e6ff, #3cc6be);
+}
+
+.note-1 {
+    transform: rotate(-4deg);
+}
+/* ↑↑ Opportunities Preview ↑↑ */
+
+/* ↓↓ Cynergy of Tomorrow ↓↓ */
+.future-preview {
+    border-color: var(--flow-teal);
+    box-shadow: 0 0 3rem var(--flow-teal-trans);
+}
+
+.future-text h2 {
+    color: var(--flow-teal);
+}
+
+.future-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.venn-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    border: 2px solid;
+    backdrop-filter: blur(2px);
+    font-size: clamp(0.5rem, 0.8vw, 1.5rem);
+}
+
+.venn-tech {
+    border-color: var(--cynergy-blue);
+    background-color: var(--cynergy-blue-trans);
+    margin-bottom: -3rem;
+}
+
+.future-graphic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -2.7rem;
+}
+
+.venn-services {
+    border-color: var(--cynergy-green);
+    background-color: var(--cynergy-green-trans);
+    margin-right: -1.1rem;
+}
+
+.venn-intelligence {
+    border-color: var(--flow-teal);
+    background-color: var(--flow-teal-trans);
+    margin-left: -1.2rem;
+}
+
+.venn-center {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: rgba(0,0,0,.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: clamp(0.5rem, 0.9vw, 1.5rem);
+    font-weight: 700;
+    z-index: 10;
+    margin-top: 1.2rem;
+}
+
+.future-link {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: 0;
+    color: var(--flow-teal);
+    text-decoration: none;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.future-link:hover {
+    color: white;
+}
+/* ↑↑ Cynergy of Tomorrow ↑↑ */
+
