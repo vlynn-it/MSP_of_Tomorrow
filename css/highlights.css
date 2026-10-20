@@ -67,13 +67,13 @@
 }
 
 .opportunities-card {
-    border-color: var(--cynergy-green);
-    color: var(--cynergy-green);
+    border-color: var(--msp-green);
+    color: var(--msp-green);
 }
 
 .opportunities-card-icon {
-    border-color: var(--cynergy-green);
-    background: linear-gradient(to top right, var(--bg-main), var(--cynergy-green));
+    border-color: var(--msp-green);
+    background: linear-gradient(to top right, var(--bg-main), var(--msp-green));
 }
 
 .risks-card {
@@ -232,16 +232,16 @@
 }
 
 .highlights-card-green {
-    border-color: var(--cynergy-green);
+    border-color: var(--msp-green);
 }
 
 .momentum-card-icon-green {
-    border-color: var(--cynergy-green);
-    background: linear-gradient(to top, var(--cynergy-green-trans), var(--cynergy-green));
+    border-color: var(--msp-green);
+    background: linear-gradient(to top, var(--msp-green-trans), var(--msp-green));
 }
 
 .highlights-card-heading-green {
-    color: var(--cynergy-green);
+    color: var(--msp-green);
 }
 
 .highlights-card-teal {
@@ -258,16 +258,16 @@
 }
 
 .highlights-card-blue {
-    border-color: var(--cynergy-blue);
+    border-color: var(--msp-blue);
 }
 
 .momentum-card-icon-blue {
-    border-color: var(--cynergy-blue);
-    background: linear-gradient(to top, var(--cynergy-blue-trans), var(--cynergy-blue));
+    border-color: var(--msp-blue);
+    background: linear-gradient(to top, var(--msp-blue-trans), var(--msp-blue));
 }
 
 .highlights-card-heading-blue {
-    color: var(--cynergy-blue-light);
+    color: var(--msp-blue-light);
 }
 
 .highlights-card-gold {
@@ -306,11 +306,11 @@
 }
 
 .term-card-icon-blue {
-    background-color: var(--cynergy-blue-trans);
+    background-color: var(--msp-blue-trans);
 }
 
 .term-card-icon-green {
-    background-color: var(--cynergy-green-trans);
+    background-color: var(--msp-green-trans);
 }
 
 .term-card.flipped .flip-card-inner {
@@ -343,7 +343,7 @@
     padding-left: 0.5vw;
     display: flex;
     align-items: center;
-    background: var(--cynergy-green-trans);
+    background: var(--msp-green-trans);
 }
 
 .flip-card-back p {

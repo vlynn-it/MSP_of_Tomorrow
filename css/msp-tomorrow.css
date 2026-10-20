@@ -1,4 +1,4 @@
-/* ↓↓ Cynergy of Tomorrow ↓↓ */
+/* ↓↓ MSP of Tomorrow ↓↓ */
 .diagram-section {
     margin-top: 2rem;
 }
@@ -62,9 +62,9 @@
 }
 
 .diagram-block-green {
-    background: linear-gradient(to bottom, var(--cynergy-green-trans), var(--bg-main));
-    color: var(--cynergy-green-light);
-    border-color: var(--cynergy-green);
+    background: linear-gradient(to bottom, var(--msp-green-trans), var(--bg-main));
+    color: var(--msp-green-light);
+    border-color: var(--msp-green);
 }
 
 .diagram-block-gold {
@@ -91,13 +91,13 @@
 }
 
 .diagram-block-icon-blue {
-    background: linear-gradient(to bottom, var(--cynergy-blue-light), var(--cynergy-blue-trans), var(--bg-block-trans));
-    border-color: linear-gradient(to top, var(--cynergy-blue), var(--cynergy-blue-light));
+    background: linear-gradient(to bottom, var(--msp-blue-light), var(--msp-blue-trans), var(--bg-block-trans));
+    border-color: linear-gradient(to top, var(--msp-blue), var(--msp-blue-light));
 }
 
 .diagram-block-icon-green {
-    background: linear-gradient(to bottom, var(--cynergy-green-light), var(--cynergy-green-trans), var(--bg-block-trans));
-    border-color: linear-gradient(to top, var(--cynergy-green), var(--cynergy-green-light));
+    background: linear-gradient(to bottom, var(--msp-green-light), var(--msp-green-trans), var(--bg-block-trans));
+    border-color: linear-gradient(to top, var(--msp-green), var(--msp-green-light));
 }
 
 .diagram-block-icon-teal {
@@ -168,13 +168,13 @@
 }
 
 .venn-tech {
-    border-color: var(--cynergy-blue);
-    background-color: var(--cynergy-blue-trans);
+    border-color: var(--msp-blue);
+    background-color: var(--msp-blue-trans);
     margin-bottom: -3rem;
 }
 
 .venn-tech:hover {
-    box-shadow: 0 0 30px var(--cynergy-blue-light);
+    box-shadow: 0 0 30px var(--msp-blue-light);
 }
 
 .future-graphic {
@@ -186,14 +186,14 @@
 }
 
 .venn-services {
-    border-color: var(--cynergy-green);
-    background-color: var(--cynergy-green-trans);
+    border-color: var(--msp-green);
+    background-color: var(--msp-green-trans);
     margin-right: -3.6rem;
     margin-top: -5rem;
 }
 
 .venn-services:hover {
-    box-shadow: 0 0 30px var(--cynergy-green-light);
+    box-shadow: 0 0 30px var(--msp-green-light);
 }
 
 .venn-intelligence {
@@ -386,4 +386,4 @@
     text-align: center;
     margin-bottom: 2vh;
 }
-/* ↑↑ Cynergy of Tomorrow ↑↑ */
+/* ↑↑ MSP of Tomorrow ↑↑ */

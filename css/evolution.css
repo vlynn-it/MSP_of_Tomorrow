@@ -1,4 +1,4 @@
-/* ↓↓ Cynergy Evolution ↓↓ */
+/* ↓↓ MSP Evolution ↓↓ */
 .timeline {
     position: relative;
     display: flex;
@@ -15,22 +15,22 @@
     left: 0;
     right: 0;
     height: 2px;
-    background: linear-gradient(to right, var(--cynergy-blue), var(--cynergy-green), var(--cynergy-green), var(--cynergy-blue), var(--flow-gold));
+    background: linear-gradient(to right, var(--msp-blue), var(--msp-green), var(--msp-green), var(--msp-blue), var(--flow-gold));
     z-index: 1;
     height: 2px;
     width: 100%;
 }
 
 .timeline-blue {
-    color: var(--cynergy-blue);
-    background-color: var(--cynergy-blue);
-    border-color: var(--cynergy-blue);
+    color: var(--msp-blue);
+    background-color: var(--msp-blue);
+    border-color: var(--msp-blue);
 }
 
 .timeline-green {
-    color: var(--cynergy-green);
-    background-color: var(--cynergy-green);
-    border-color: var(--cynergy-green);
+    color: var(--msp-green);
+    background-color: var(--msp-green);
+    border-color: var(--msp-green);
 }
 
 .timeline-teal {
@@ -69,13 +69,13 @@
 }
 
 .timeline-icon-blue {
-    border-color:  var(--cynergy-blue-light);
-    background-color: var(--cynergy-blue);
+    border-color:  var(--msp-blue-light);
+    background-color: var(--msp-blue);
 }
 
 .timeline-icon-green {
-    border-color:  var(--cynergy-green-light);
-    background-color: var(--cynergy-green);
+    border-color:  var(--msp-green-light);
+    background-color: var(--msp-green);
 }
 
 .timeline-icon-teal {
@@ -125,11 +125,11 @@
 }
 
 .timeline-label-blue {
-    background-color: var(--cynergy-blue);
+    background-color: var(--msp-blue);
 }
 
 .timeline-label-green {
-    background-color: var(--cynergy-green);
+    background-color: var(--msp-green);
 }
 
 .timeline-label-teal {
@@ -217,7 +217,7 @@
 .slide-summary-line {
     height: 2px;
     width: 10vw;
-    background: linear-gradient(to right, var(--flow-teal), var(--cynergy-blue), var(--cynergy-green));
+    background: linear-gradient(to right, var(--flow-teal), var(--msp-blue), var(--msp-green));
 }
 
 .summary-line-start {
@@ -241,4 +241,4 @@
 .summary-text-teal {
     color: var(--flow-teal);
 }
-/* ↑↑ Cynergy Evolution ↑↑ */
+/* ↑↑ MSP Evolution ↑↑ */

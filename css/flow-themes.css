@@ -58,21 +58,21 @@
 }
 
 .theme-card-blue {
-    background: linear-gradient(to bottom, var(--cynergy-blue-trans), var(--bg-main));
-    color: var(--cynergy-blue);
+    background: linear-gradient(to bottom, var(--msp-blue-trans), var(--bg-main));
+    color: var(--msp-blue);
 }
 
 .theme-card-blue:hover {
-    box-shadow: 0 0 25px var(--cynergy-blue-light);
+    box-shadow: 0 0 25px var(--msp-blue-light);
 }
 
 .theme-card-green {
-    background: linear-gradient(to bottom, var(--cynergy-green-trans), var(--bg-main));
-    color: var(--cynergy-green);
+    background: linear-gradient(to bottom, var(--msp-green-trans), var(--bg-main));
+    color: var(--msp-green);
 }
 
 .theme-card-green:hover {
-    box-shadow: 0 0 25px var(--cynergy-green-light);
+    box-shadow: 0 0 25px var(--msp-green-light);
 }
 
 .theme-card-teal {
@@ -106,13 +106,13 @@
 }
 
 .theme-icon-div-blue {
-    background: linear-gradient(to bottom, var(--cynergy-blue-light), var(--cynergy-blue-trans), var(--bg-block-trans));
-    border-color: linear-gradient(to top, var(--cynergy-blue), var(--cynergy-blue-light));
+    background: linear-gradient(to bottom, var(--msp-blue-light), var(--msp-blue-trans), var(--bg-block-trans));
+    border-color: linear-gradient(to top, var(--msp-blue), var(--msp-blue-light));
 }
 
 .theme-icon-div-green {
-    background: linear-gradient(to bottom, var(--cynergy-green-light), var(--cynergy-green-trans), var(--bg-block-trans));
-    border-color: linear-gradient(to top, var(--cynergy-green), var(--cynergy-green-light));
+    background: linear-gradient(to bottom, var(--msp-green-light), var(--msp-green-trans), var(--bg-block-trans));
+    border-color: linear-gradient(to top, var(--msp-green), var(--msp-green-light));
 }
 
 .theme-icon-div-teal {

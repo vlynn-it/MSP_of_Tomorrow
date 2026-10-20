@@ -104,7 +104,7 @@
     padding-right: 1rem;
     border-color: var(--border-light);
     width: 80vw;
-    box-shadow: 0 0 3rem var(--cynergy-green-trans);
+    box-shadow: 0 0 3rem var(--msp-green-trans);
 }
 
 .overview-title {
@@ -163,9 +163,9 @@
 }
 
 .topic-chip-blue {
-    background-color: var(--cynergy-blue-trans);
-    border: 1px solid var(--cynergy-blue);
-    color: var(--cynergy-blue);
+    background-color: var(--msp-blue-trans);
+    border: 1px solid var(--msp-blue);
+    color: var(--msp-blue);
 }
 
 .topic-chip-teal {
@@ -175,9 +175,9 @@
 }
 
 .topic-chip-green {
-    background-color: var(--cynergy-green-trans);
-    border: 1px solid var(--cynergy-green);
-    color: var(--cynergy-green);
+    background-color: var(--msp-green-trans);
+    border: 1px solid var(--msp-green);
+    color: var(--msp-green);
 }
 
 .topic-chip-gold {
@@ -213,7 +213,7 @@
 .card-link-green:link,
 .card-link-green:visited,
 .card-link-green:active {
-    color: var(--cynergy-green);
+    color: var(--msp-green);
 }
 
 .card-link-teal,
@@ -227,7 +227,7 @@
 .card-link-blue:link,
 .card-link-blue:visited,
 .card-link-blue:active {
-    color: var(--cynergy-blue);
+    color: var(--msp-blue);
 }
 
 .nav-card {
@@ -251,7 +251,7 @@
 }
 
 .nav-card-green {
-    border-color: var(--cynergy-green);
+    border-color: var(--msp-green);
 }
 
 .nav-card-teal {
@@ -259,7 +259,7 @@
 }
 
 .nav-card-blue {
-    border-color: var(--cynergy-blue);
+    border-color: var(--msp-blue);
 }
 
 .card-header {
@@ -295,7 +295,7 @@
 }
 
 .card-subtitle-green {
-        color: var(--cynergy-green);
+        color: var(--msp-green);
 }
 
 .card-subtitle-teal {
@@ -303,7 +303,7 @@
 }
 
 .card-subtitle-blue {
-        color: var(--cynergy-blue);
+        color: var(--msp-blue);
 }
 
 .card-description {
@@ -357,12 +357,12 @@
 
 /* ↓↓ Opportunities Preview ↓↓ */
 .opportunities-preview {
-    border-color: var(--cynergy-green);
-    box-shadow: 0 0 3rem var(--cynergy-green-trans);
+    border-color: var(--msp-green);
+    box-shadow: 0 0 3rem var(--msp-green-trans);
 }
 
 .opportunities-preview h2 {
-    color: var(--cynergy-green);
+    color: var(--msp-green);
 }
 
 .sticky-notes {
@@ -426,7 +426,7 @@
 }
 /* ↑↑ Opportunities Preview ↑↑ */
 
-/* ↓↓ Cynergy of Tomorrow ↓↓ */
+/* ↓↓ MSP of Tomorrow ↓↓ */
 .future-preview {
     border-color: var(--flow-teal);
     box-shadow: 0 0 3rem var(--flow-teal-trans);
@@ -461,8 +461,8 @@
 }
 
 .venn-tech {
-    border-color: var(--cynergy-blue);
-    background-color: var(--cynergy-blue-trans);
+    border-color: var(--msp-blue);
+    background-color: var(--msp-blue-trans);
     margin-bottom: -3rem;
 }
 
@@ -476,8 +476,8 @@
 }
 
 .venn-services {
-    border-color: var(--cynergy-green);
-    background-color: var(--cynergy-green-trans);
+    border-color: var(--msp-green);
+    background-color: var(--msp-green-trans);
     margin-right: -1.1rem;
 }
 
@@ -519,5 +519,5 @@
 .future-link:hover {
     color: white;
 }
-/* ↑↑ Cynergy of Tomorrow ↑↑ */
+/* ↑↑ MSP of Tomorrow ↑↑ */
 

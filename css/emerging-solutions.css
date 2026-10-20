@@ -35,7 +35,7 @@
 }
 
 .hero-subtitle {
-    background-color: var(--cynergy-green-trans);
+    background-color: var(--msp-green-trans);
     width: 50%;
     text-align: center;
     position: relative;
@@ -152,7 +152,7 @@
 }
 
 .blue-title {
-    color: var(--cynergy-blue);
+    color: var(--msp-blue);
 }
 
 .row-text {
