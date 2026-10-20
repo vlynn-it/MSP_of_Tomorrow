@@ -19,6 +19,7 @@
 
 .footer-logo {
     width: 7vw;
+    max-height: 3vh;
     margin-right: 1rem;
 }
 

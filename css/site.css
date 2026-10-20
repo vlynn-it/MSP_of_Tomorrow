@@ -13,6 +13,13 @@
     --cynergy-green-light: #2ff0a6;
     --cynergy-green-trans: #00C97D22;
 
+    --msp-blue: #0076E6;
+    --msp-blue-light: #57aeff;
+    --msp-blue-trans: #0076E622;
+    --msp-green: #00C97D;
+    --msp-green-light: #2ff0a6;
+    --msp-green-trans: #00C97D22;
+
     --flow-teal: #3BC6BE;
     --flow-teal-light: #77f4ed;
     --flow-teal-trans: #3BC6BE22;
@@ -88,7 +95,7 @@ body {
 }
 
 .hero-fancy-heading {
-    background: linear-gradient(to right, var(--flow-teal), var(--cynergy-blue),var(--cynergy-green));
+    background: linear-gradient(to right, var(--flow-teal), var(--msp-blue),var(--msp-green));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

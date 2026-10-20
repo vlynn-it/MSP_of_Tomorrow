@@ -149,7 +149,7 @@
 }
 
 .questions-section-heading-row-line-left {
-    width: 10vw;
+    width: 100%;
     height: 2px;
     background: linear-gradient(to right, var(--flow-teal), var(--bg-card-trans), var(--bg-block-trans));
 }
@@ -161,7 +161,7 @@
 }
 
 .questions-section-heading-row-text {
-    color: var(--flow-teal);
+    color: var(--flow-gold);
     font-size: 12pt;
     font-weight: bold;
     width: fit-content;

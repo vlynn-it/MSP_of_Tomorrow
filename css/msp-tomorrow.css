@@ -189,6 +189,7 @@
     border-color: var(--cynergy-green);
     background-color: var(--cynergy-green-trans);
     margin-right: -3.6rem;
+    margin-top: -5rem;
 }
 
 .venn-services:hover {
@@ -199,6 +200,7 @@
     border-color: var(--flow-teal);
     background-color: var(--flow-teal-trans);
     margin-left: -3.6rem;
+    margin-top: -5rem;
 }
 
 .venn-intelligence:hover {
@@ -206,13 +208,32 @@
 }
 
 .venn-center {
-    border-radius: 50%;
+    font-size: 1.25rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 10;
-    box-shadow: 0 0 40px var(--flow-gold);
-    margin-bottom: -10rem;
+    margin-bottom: -7.75rem;
+    margin-top: -1rem;
+    transition: transfrom .25s ease;
+}
+
+.venn-center:hover {
+    transform: scale(1.25);
+}
+
+.venn-center h1 {
+    font-size: 28pt;
+    color: var(--flow-gold);
+    margin: auto;
+    text-shadow: -1px -1px 0 var(--text-secondary), 1px -1px 0 var(--text-secondary), -1px 1px 0 var(--text-secondary), 1px 1px 0 var(--text-secondary);
+}
+
+.venn-center h5 {
+    font-size: 10pt;
+    color: var(--flow-gold);
+    margin: auto;
 }
 
 .venn-logo {
